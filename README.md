@@ -20,14 +20,16 @@ body, html {
 
 ##Step 2: Hang your canvas
 
-Let’s make a big box. This will be the canvas for our code painting and the container we will put everything else we will make into. To make our painting we will be using two new concepts: ***#id*** and ```<div>```.
-+ In the CSS panel make a new ```#id``` for your big box. A CSS ID is type of selector that can be used to specify a style for a single, unique element in the HTML. You can call your ID whatever you like you just need to add an # in front of it. We’ve called ours #painting.
+Let’s make a big box. This will be the canvas for our code painting and the container we will put everything else we will make into. To make our painting we will be using two new concepts: **#id** and ```<div>```.
++ In the CSS panel make a new **#id** for your big box. A CSS ID is type of selector that can be used to specify a style for a single, unique element in the HTML. You can call your ID whatever you like you just need to add an # in front of it. We’ve called ours #painting.
 + Set the **height** and **width** attributes for your box. Keep in mind that we will dividing this box into sections using simple arithmetic so pick and number that is big but also easy to divide into quarters and thirds, etc. We made ours **400px**.
 + Set the background color to white. You can also use a more canvas-like hex value. We used **#fff4db**.
 + Now let’s add a little positioning to this style. We want our painting to be centered on the wall with a little space from the ceiling. One easy way to do that is to set the left and right margins to auto and margin-top to 30px.
-+ We also added a box-shadow to our #painting style to help it stand out from the wall.
++ We also added a box-shadow to our **#painting** style to help it stand out from the wall.
+
 The new CSS code we added looks like this:
- .#painting {
+```html
+#painting {
     background-color: #fff4db;
     width: 400px;
     height: 400px;
@@ -36,6 +38,7 @@ The new CSS code we added looks like this:
     margin-right: auto;
     box-shadow: 10px 10px 0px #8d8d8d;
 }
+```
 
 Now let’s add that style to an element on our HTML page.
 Switch back to the HTML tab and in between the ```<body>``` tags add a new ```<div>``` tag. Give it the #id style you just created. To give an html element an ID style from our CSS add the text id="painting" inside the opening tag.
