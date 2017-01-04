@@ -9,9 +9,11 @@ Before we do anything else let's give ourselves a nice big wall to hang our pain
 + Set the body and html styles to have a drywall-like background-color of #f6f6f6. A quick way to give two elements the same property is to write a style with multiple selectors separated by a comma.
 _Our CSS code looks like this:_
 
+```html
 body, html {
     background-color: #f6f6f6;
 }
+```
 
 
 
