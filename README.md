@@ -4,10 +4,10 @@ HBA Project
 ##Step 1: Paint your gallery wall.
 
 Before we do anything else let's give ourselves a nice big wall to hang our painting.
-Go into the CSS tab in your Mondrian project.
-Erase anything that’s already there, we won’t be needing that pagecontent style.
-Set the body and html styles to have a drywall-like background-color of #f6f6f6. A quick way to give two elements the same property is to write a style with multiple selectors separated by a comma.
-Our CSS code looks like this:
++ Go into the CSS tab in your Mondrian project.
++ Erase anything that’s already there, we won’t be needing that pagecontent style.
++ Set the body and html styles to have a drywall-like background-color of #f6f6f6. A quick way to give two elements the same property is to write a style with multiple selectors separated by a comma.
+_Our CSS code looks like this:_
 body, html {
     background-color: #f6f6f6;
 }
