@@ -14,6 +14,7 @@ body, html {
 }
 
 
+
 ##Step 2: Hang your canvas
 
 Let’s make a big box. This will be the canvas for our code painting and the container we will put everything else we will make into. To make our painting we will be using two new concepts: ```#id``` and ```<div>```.
@@ -23,22 +24,24 @@ Let’s make a big box. This will be the canvas for our code painting and the co
 + Now let’s add a little positioning to this style. We want our painting to be centered on the wall with a little space from the ceiling. One easy way to do that is to set the left and right margins to auto and margin-top to 30px.
 + We also added a box-shadow to our #painting style to help it stand out from the wall.
 The new CSS code we added looks like this:
->.#painting {
->    background-color: #fff4db;
->    width: 400px;
->    height: 400px;
->    margin-top: 30px;
->    margin-left: auto;
->    margin-right: auto;
->    box-shadow: 10px 10px 0px #8d8d8d;
->}
+ .#painting {
+    background-color: #fff4db;
+    width: 400px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 0px #8d8d8d;
+}
 
 Now let’s add that style to an element on our HTML page.
-Switch back to the HTML tab and in between the <body> tags add a new <div> tag. Give it the #id style you just created. To give an html element an ID style from our CSS add the text id="painting" inside the opening tag.
+Switch back to the HTML tab and in between the ```<body>``` tags add a new ```<div>``` tag. Give it the #id style you just created. To give an html element an ID style from our CSS add the text id="painting" inside the opening tag.
 Our HTML looks like this:
+```html
 <body>
     <div id="painting"></div>
 </body>
+```
 
 Divs are tags that help divide and segment a page. You can think of them like boxes that can be styled and positioned using CSS. You can also put stuff inside them, such as text, pictures, and even other divs. They are the basic building blocks of any website and a fundamental part of this project. So get ready to make a lot of them.
 
