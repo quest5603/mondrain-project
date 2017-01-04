@@ -22,7 +22,7 @@ Set the background color to white. You can also use a more canvas-like hex value
 Now let’s add a little positioning to this style. We want our painting to be centered on the wall with a little space from the ceiling. One easy way to do that is to set the left and right margins to auto and margin-top to 30px.
 We also added a box-shadow to our #painting style to help it stand out from the wall.
 The new CSS code we added looks like this:
-```#painting {
+#painting {
     background-color: #fff4db;
     width: 400px;
     height: 400px;
@@ -31,7 +31,7 @@ The new CSS code we added looks like this:
     margin-right: auto;
     box-shadow: 10px 10px 0px #8d8d8d;
 }
-```
+
 Now let’s add that style to an element on our HTML page.
 Switch back to the HTML tab and in between the <body> tags add a new <div> tag. Give it the #id style you just created. To give an html element an ID style from our CSS add the text id="painting" inside the opening tag.
 Our HTML looks like this:
