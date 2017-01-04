@@ -22,7 +22,7 @@ Set the background color to white. You can also use a more canvas-like hex value
 Now let’s add a little positioning to this style. We want our painting to be centered on the wall with a little space from the ceiling. One easy way to do that is to set the left and right margins to auto and margin-top to 30px.
 We also added a box-shadow to our #painting style to help it stand out from the wall.
 The new CSS code we added looks like this:
-#painting {
+.#painting {
     background-color: #fff4db;
     width: 400px;
     height: 400px;
