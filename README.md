@@ -8,6 +8,7 @@ Before we do anything else let's give ourselves a nice big wall to hang our pain
 + Erase anything that’s already there, we won’t be needing that pagecontent style.
 + Set the body and html styles to have a drywall-like background-color of #f6f6f6. A quick way to give two elements the same property is to write a style with multiple selectors separated by a comma.
 _Our CSS code looks like this:_
+
 body, html {
     background-color: #f6f6f6;
 }
@@ -15,22 +16,22 @@ body, html {
 
 ##Step 2: Hang your canvas
 
-Let’s make a big box. This will be the canvas for our code painting and the container we will put everything else we will make into. To make our painting we will be using two new concepts: #id and <div>.
-In the CSS panel make a new #id for your big box. A CSS ID is type of selector that can be used to specify a style for a single, unique element in the HTML. You can call your ID whatever you like you just need to add an # in front of it. We’ve called ours #painting.
-Set the height and width attributes for your box. Keep in mind that we will dividing this box into sections using simple arithmetic so pick and number that is big but also easy to divide into quarters and thirds, etc. We made ours 400px.
-Set the background color to white. You can also use a more canvas-like hex value. We used #fff4db.
-Now let’s add a little positioning to this style. We want our painting to be centered on the wall with a little space from the ceiling. One easy way to do that is to set the left and right margins to auto and margin-top to 30px.
-We also added a box-shadow to our #painting style to help it stand out from the wall.
+Let’s make a big box. This will be the canvas for our code painting and the container we will put everything else we will make into. To make our painting we will be using two new concepts: ```#id``` and ```<div>```.
++ In the CSS panel make a new ```#id``` for your big box. A CSS ID is type of selector that can be used to specify a style for a single, unique element in the HTML. You can call your ID whatever you like you just need to add an # in front of it. We’ve called ours #painting.
++ Set the **height** and **width** attributes for your box. Keep in mind that we will dividing this box into sections using simple arithmetic so pick and number that is big but also easy to divide into quarters and thirds, etc. We made ours **400px**.
++ Set the background color to white. You can also use a more canvas-like hex value. We used **#fff4db**.
++ Now let’s add a little positioning to this style. We want our painting to be centered on the wall with a little space from the ceiling. One easy way to do that is to set the left and right margins to auto and margin-top to 30px.
++ We also added a box-shadow to our #painting style to help it stand out from the wall.
 The new CSS code we added looks like this:
-.#painting {
-    background-color: #fff4db;
-    width: 400px;
-    height: 400px;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 10px 10px 0px #8d8d8d;
-}
+>.#painting {
+>    background-color: #fff4db;
+>    width: 400px;
+>    height: 400px;
+>    margin-top: 30px;
+>    margin-left: auto;
+>    margin-right: auto;
+>    box-shadow: 10px 10px 0px #8d8d8d;
+>}
 
 Now let’s add that style to an element on our HTML page.
 Switch back to the HTML tab and in between the <body> tags add a new <div> tag. Give it the #id style you just created. To give an html element an ID style from our CSS add the text id="painting" inside the opening tag.
@@ -88,12 +89,12 @@ Classes are similar to the #id styles we’ve been working with except the same 
 In your CSS tab start a new line.
 Begin writing your first color class. It looks exactly the same as the other styles we’ve typed up so far except instead of “#” in front of the selector we put a “.” (period). We are only defining color with these classes so the only attribute needs to be background-color. Try just “red” as the background-color.
 .red {
-    background-color: red;   
+    background-color: red;
 }
 
 If you’d prefer more control and variation in color you can use a hex value.
 .red {
-    background-color: #cc3333;   
+    background-color: #cc3333;
 }
 
 To apply the .red class to our #bigbox DIV, simply add the text class="red" to its tag in HTML.
@@ -107,16 +108,16 @@ To apply the .red class to our #bigbox DIV, simply add the text class="red" to i
 
 Now that you know how .class works, go ahead and make classes for the other colors in this painting: .blue, .yellow, and .black. You can make additional color classes as well.
 .red {
-    background-color: red;   
+    background-color: red;
 }
 .blue {
-    background-color: blue; 
+    background-color: blue;
 }
 .yellow {
-    background-color: yellow;   
+    background-color: yellow;
 }
 .black {
-    background-color: black;   
+    background-color: black;
 }
 
 
