@@ -1,5 +1,4 @@
 # MondrainProject
-HBA Project
 
 ##Step 1: Paint your gallery wall.
 
