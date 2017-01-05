@@ -3,6 +3,7 @@ HBA Project
 
 ##Step 1: Paint your gallery wall.
 
+![Step 1](/images/image1.png)
 Before we do anything else let's give ourselves a nice big wall to hang our painting.
 + Go into the CSS tab in your Mondrian project.
 + Erase anything that’s already there, we won’t be needing that pagecontent style.
@@ -15,8 +16,6 @@ body, html {
     background-color: #f6f6f6;
 }
 ```
-
-
 
 ##Step 2: Hang your canvas
 
