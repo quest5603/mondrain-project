@@ -3,6 +3,7 @@
 ##Step 1: Paint your gallery wall.
 
 ![Step 1](/images/image1.png)
+
 Before we do anything else let's give ourselves a nice big wall to hang our painting.
 + Go into the CSS tab in your Mondrian project.
 + Erase anything that’s already there, we won’t be needing that pagecontent style.
@@ -17,6 +18,8 @@ body, html {
 ```
 
 ##Step 2: Hang your canvas
+
+![Step 2](/images/image2.png)
 
 Let’s make a big box. This will be the canvas for our code painting and the container we will put everything else we will make into. To make our painting we will be using two new concepts: **#id** and ```<div>```.
 + In the CSS panel make a new **#id** for your big box. A CSS ID is type of selector that can be used to specify a style for a single, unique element in the HTML. You can call your ID whatever you like you just need to add an # in front of it. We’ve called ours #painting.
@@ -55,6 +58,8 @@ Now that we have our basic structure, it’s time to define the structure of our
 We will be thinking about the works as rows, columns, and boxes. Each one of these will have their own CSS **#id** and one or more corresponding HTML ```<div>```s. Some of them will be visible and colored. Others will be invisible but serve to hold the boxes in proper position and alignment.
 
 _Here’s an illustration of how how these divisions will work and what the measurements for our finished piece will be:_
+
+![Step 3](/images/image3.png)
 
 We’ll start by making our top row the one with the big box on the right and two smaller boxes on the left.
 + Go into the **CSS** tab and define a new **#id** for the top row. Since we made our **#painting** size **400px** our top row should have a height of **290px** to match the proportions of Mondrian’s painting. Since we’ll be nesting this inside our big ```<div>``` and want it to fill the full width we don’t need to define that dimension. It will inherit that quality from its parent.
