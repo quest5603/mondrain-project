@@ -107,6 +107,9 @@ _The CSS addition looks like this:_
 ```
 
 ##Step 5: Add some color and some class
+
+![Step 4](/images/image4.png)
+
 Now let’s give that box some color! Now you’re probably thinking we could just add a **background-color** attribute to the **#bigbox** id we already created, and you would be correct! That would get the job done pretty well. But remember we want to give multiple boxes the same color later in the project. For that a CSS **.class** will be a better choice.
 Classes are similar to the #id styles we’ve been working with except the same class can be used to style multiple elements, including DIVs that already have #ids in our layout. That will make more sense in just a bit. Let’s make that .class first.
 + In your CSS tab start a new line.
@@ -153,6 +156,8 @@ To apply the **.red** class to our **#bigbox** DIV, simply add the text **class=
 
 ##Step 6: Float it right
 
+![Step 6](/images/image6.png)
+
 You probably noticed the big red box is on the wrong side. These things happen. Web elements will default to the upper left if they aren’t assigned any other positioning. Let’s move this box to the place its supposed to go.
 
 There are many different ways of positioning an element the but method we will be using is called float. It makes things move (or float) either right or left until they bump into something. Normally a DIV will position itself underneath the previous element, but when DIVs are "floated", they can align side-by-side until there is no more space and they are forced to wrap.
@@ -173,6 +178,8 @@ Note that an element can only have a single **#id**, but it can have more than o
 Floated elements will stack up against each other. This means if we give all the boxes in our rows the .right .class they will float up next to each other and form a nice horizontal row. That’s what we want for the next step.
 
 ##Step 7: Add a divider
+
+![Step 7](/images/image7.png)
 
 Now let’s add one of those black bars. We’ll add them the same way we added the big red box. Make a new #id for the top divider and assign a color and position class to it in the HTML. our divider is 10px wide and 290px tall.
 
@@ -197,6 +204,9 @@ _And our HTML:_
 ```
 
 ##Step 8: Make a column
+
+![Step 8](/images/image8.png)
+
 Now let’s make a column, called **#topleftcolumn**. We will be putting three boxes in it, two with the **.mediumbox** class, and a horizontal **#divider2** in between.
 
 **#topleftcolumn** won't be visible, but it helps position and stack those three boxes vertically within that last bit of the row.
@@ -232,6 +242,8 @@ Since the two boxes are the exact same size we can use one **.class** for both o
 
 ##Step 9: Do the middle row divider
 
+![Step 9](/images/image9.png)
+
 This is just another black divider, but it's not inside **#toprow**.
 Here's the HTML markup. Can you figure out the CSS?
 
@@ -254,8 +266,12 @@ Here's the HTML markup. Can you figure out the CSS?
 
 ##Step 10: Fill out the bottom row
 
+![Step 10](/images/image10.png)
+
 Now you’re ready to do the last row your self. You have all the pieces and knowledge at your disposal. The process is the same as the top row we just completed just with different sizes and colors. Keep an eye on those little boxes at the right. They’ll need their own column.
 
 ##Step 11: Mess around with it
+
+![Step 11](/images/image11.png)
 
 You’re done! Doesn’t it look great? Actually, maybe it doesn’t look that great. Maybe you want to make it wilder, add more colors or change the ones that are already there. Good thing that’s easy to do. Go back into the CSS tab and start changing the values of the color classes we made. If you’re feeling really crazy, maybe change some box sizes or add new ones. See if you can make it a whole new painting.
